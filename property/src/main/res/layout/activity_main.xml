@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:onClick="ButtonTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="平移动画" />
+    <Button
+        android:onClick="ButtonScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="缩放动画" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动画集合"
+        android:onClick="ButtonAll"/>
+    <ImageView
+        android:src="@drawable/picture"
+        android:id="@+id/mImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+</LinearLayout>

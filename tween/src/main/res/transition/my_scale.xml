@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="0"
+    android:toXScale="1"
+    android:fromYScale="0"
+    android:toYScale="1"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="2000"
+    android:fillAfter="true"
+    android:repeatCount="1"
+    android:repeatMode="reverse"
+    >
+
+    <!--
+     android:fromXScale，android:fromYScale:开始的控件的大小＝本身控件的大小＊value
+     android:toXScale，android:toYScale：结束的控件的大小＝本身控件的大小＊value
+     android:pivotX="50%"：缩放点的x坐标 ＝当前控件的宽度＊value
+     android:pivotY="50%"：缩放点的y坐标 ＝当前控件的高度＊value
+     -->
+
+</scale>

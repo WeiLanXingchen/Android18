@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="2000"
+    >
+    <!--
+         android:fromDegrees="0":开始角度
+         android:toDegrees="-360"：结束角度
+         android:pivotX="50%"：旋转中心点的x坐标
+         android:pivotY="50%"：旋转中心点的y坐标
+         -->
+</translate>
